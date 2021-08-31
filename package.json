@@ -1,0 +1,13 @@
+{
+  "name": "detexi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "algol007",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.8"
+  }
+}

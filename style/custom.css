@@ -1,0 +1,52 @@
+/* Color Palette
+Blue Button : #1571DC
+Orange Text : #F4A813
+Blue Bg : #F4A813
+Blue Bg Section : #F5FAFF
+Yellow Bg : #FFFAF1
+Footer Bg : #0B3252 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  color: #484d4d;
+}
+
+.blue-button {
+  background-color: #1571dc;
+  color: #ffffff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+}
+
+.order-section {
+  background-color: #f5faff;
+}
+
+.yellow-section {
+  background-color: #fffaf1;
+}
+
+.popular-button {
+  width: max-content;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #1571dc;
+  color: #1571dc;
+  background-color: #f5faff;
+}
+
+.categories {
+  color: #f4a813;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+footer {
+  background-color: #0b3252;
+  color: #fff;
+  padding-top: 4rem;
+}
