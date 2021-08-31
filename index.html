@@ -12,66 +12,117 @@
 
 <body>
   <div>
-    <nav class="justify-between items-center container lg:px-0 px-4 mx-auto py-2 hidden md:flex">
+    <nav class="justify-between items-center container lg:px-0 md:px-8 px-4 mx-auto py-2 hidden lg:flex mb-20">
       <a href="#"><img src="./assets/img/Detexi2-022 1.png" alt="logo-detexi"></a>
       <ul class="flex items-center">
-        <li class="mr-4">Chat bot</li>
-        <li class="mr-4">Corporate Service</li>
-        <li class="mr-4">Telekonsultasi</li>
-        <li class="mr-4"><button class="blue-button">Pesan Sekarang</button></li>
+        <li class="mr-6">Chat bot</li>
+        <li class="mr-6">Corporate Service</li>
+        <li class="mr-6">Telekonsultasi</li>
+        <li><button class="blue-button">Pesan Sekarang</button></li>
       </ul>
     </nav>
 
-    <section class="container lg:px-0 px-4 mx-auto mb-20">
+    <nav class="container lg:px-0 md:px-8 px-4 mx-auto py-2 block lg:hidden mb-8">
+      <div class="flex justify-center mb-8 relative items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 absolute left-0" onclick="showNavbar()" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <a href="/" class="w-1/2"><img src="./assets/img/Detexi2-022 1.png" alt="logo-detexi" class="mx-auto"></a>
+      </div>
+      <ul id="toggle-nav" class="flex flex-col hidden">
+        <li class="py-4 border-b">Chat bot</li>
+        <li class="py-4 border-b">Corporate Service</li>
+        <li class="py-4 border-b">Telekonsultasi</li>
+        <li class="py-4"><button class="blue-button">Pesan Sekarang</button></li>
+      </ul>
+    </nav>
+
+    <section class="container lg:px-0 md:px-8 px-4 mx-auto mb-20">
       <div class="flex flex-wrap items-center">
-        <div class="w-full lg:w-1/2 mb-4">
-          <div class="font-bold lg:text-5xl md:text-4xl md:text-3xl text-2xl  text-3xl mb-8">
-            <h1 class="mb-4">Get tested for</h1>
-            <h1>Covid 19 Today</h1>
+        <div class="w-full md:w-1/2 mb-16 lg:mb-0">
+          <div class="font-bold lg:text-5xl md:text-4xl md:text-3xl text-2xl text-3xl mb-8">
+            <h1 class="w-full lg:w-2/3 leading-16">Get tested for Covid 19 Today</h1>
           </div>
-          <p class="mb-10">Dapatkan layanan test Covid-19 dari klinik
+          <p class="mb-10 leading-8">Dapatkan layanan test Covid-19 dari klinik
             dan laboratorium terbaik di indonesia.
           </p>
           <button class="blue-button">Pesan Sekarang</button>
         </div>
-        <div class="w-full lg:w-1/2"><img src="./assets/img/doctors-infectionist-research-covid-concept-satisfied-young-asian-female-doctor-receive-good-res 1.png" alt="section1-img"></div>
+        <div class="w-full md:w-1/2">
+          <div class="flex items-baseline justify-center relative">
+            <img src="./assets/img/Rectangle 3.png" alt="illustration" class="w-2/3 ">
+            <img src="./assets/img/doctors-infectionist-research-covid-concept-satisfied-young-asian-female-doctor-receive-good-res 1.png" alt="section1-img" class="absolute w-full bottom-0 md:-left-6 -left-4"></div>
+          </div>
       </div>
     </section>
 
-    <section class="container lg:px-0 px-4 mx-auto mb-20">
+    <section class="container lg:px-0 md:px-8 px-4 mx-auto mb-20">
       <div class="text-center mb-16">
         <h2 class="lg:text-4xl md:text-3xl text-2xl font-semibold mb-4">Layanan Test untuk Anda</h2>
         <p>Apa layanan Tes yang Anda butuhkan?</p>
       </div>
       <div class="flex flex-wrap items-center">
         <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
-          <img src="./assets/img/woman-with-luggage-during-pandemic-airport1 1.png" alt="layanan test">
+          <img src="./assets/img/woman-with-luggage-during-pandemic-airport1 1.png" alt="layanan test" class="mx-auto">
         </div>
         <div class="lg:w-1/2 w-full">        
           <div class="categories mb-2">Layanan</div>
-          <div class="lg:text-2xl text-xl font-semibold mb-2">Test Penerbangan</div>
+          <div class="lg:text-2xl text-xl font-semibold mb-4">Test Penerbangan</div>
           <div class="mb-6 popular-button">Paling Populer</div>
           <ul class="mb-4">
-            <li>Terima sertifikat hasil tes covid-19 dari klinik terpercaya</li>
-            <li>Terdaftar di sistem NAR Kemenkes</li>
-            <li>Hasil diperoleh dalam 1 x 24 jam</li>
-            <li>Gratis konsultasi dokter</li>
-            <li>Sertifikat dikirim dalam format PDF melalui email</li>
+            <li class="flex leading-8 items-center mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">1</div>
+              </div>
+              <p>Terima sertifikat hasil tes covid-19 dari klinik terpercaya
+            </li>
+            <li class="flex leading-8 items-center mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">2</div>
+              </div>Terdaftar di sistem NAR Kemenkes
+            </li>
+            <li class="flex leading-8 items-center mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">3</div>
+              </div>Hasil diperoleh dalam 1 x 24 jam
+            </li>
+            <li class="flex leading-8 items-center mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">4</div>
+              </div>Gratis konsultasi dokter
+            </li>
+            <li class="flex leading-8 items-center mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">5</div>
+              </div>Sertifikat dikirim dalam format PDF melalui email
+            </li>
           </ul>
           <button class="blue-button">Pesan Sekarang</button>
         </div>
       </div>
     </section>
 
-    <section class="flex flex-wrap container lg:px-0 px-4 mx-auto mb-20">
-      <div class="w-full lg:w-1/3 flex flex-col h-64 justify-between mb-8 lg:mb-0">
+    <section class="flex flex-wrap container lg:px-0 md:px-8 px-4 mx-auto mb-20">
+      <div class="w-full lg:w-1/3 md:w-1/2 flex flex-col h-350 justify-between mb-8 lg:mb-0">
         <div>
           <div class="categories mb-2">Layanan</div>
           <div class="lg:text-2xl mb-4 text-xl font-semibold">Drive Thru</div>
           <ul class="mb-4">
-            <li>Terdaftar di sistem NAR Kemenkes</li>
-            <li>Hasil tes diperoleh dalam 30-45 Menit</li>
-            <li>Tidak perlu keluar dari dalam mobil</li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">1</div>
+              </div>Terdaftar di sistem NAR Kemenkes
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">2</div>
+              </div>Hasil tes diperoleh dalam 30-45 Menit
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">3</div>
+              </div>Tidak perlu keluar dari dalam mobil
+            </li>
           </ul>
         </div>
         <div>
@@ -79,14 +130,26 @@
         </div>
       </div>
 
-      <div class="w-full lg:w-1/3 flex flex-col h-64 justify-between mb-8 lg:mb-0">
+      <div class="w-full lg:w-1/3 md:w-1/2 flex flex-col h-350 justify-between mb-8 lg:mb-0">
         <div>
           <div class="categories mb-2">Layanan</div>
           <div class="lg:text-2xl mb-4 text-xl font-semibold">Homecare</div>
           <ul class="mb-4">
-            <li>Terdaftar di sistem NAR Kemenkes</li>
-            <li>Hasil tes diperoleh dalam 30-45 Menit</li>
-            <li>Tidak perlu keluar dari dalam mobil</li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">1</div>
+              </div>Terdaftar di sistem NAR Kemenkes
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">2</div>
+              </div>Hasil tes diperoleh dalam 30-45 Menit
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">3</div>
+              </div>Tidak perlu keluar dari dalam mobil
+            </li>
           </ul>
         </div>
         <div>
@@ -94,14 +157,26 @@
         </div>
       </div>
 
-      <div class="w-full lg:w-1/3 flex flex-col h-64 justify-between mb-8 lg:mb-0">
+      <div class="w-full lg:w-1/3 md:w-1/2 flex flex-col h-350 justify-between mb-8 lg:mb-0">
         <div>
           <div class="categories mb-2">Layanan</div>
           <div class="lg:text-2xl mb-4 text-xl font-semibold">Isolasi Mandiri</div>
           <ul class="mb-4">
-            <li>Pendampingan bagi Pasien Positif Covid-19 selama 10 Hari</li>
-            <li>Konsultasi dan Visitasi Dokter selama Isolasi Mandiri.</li>
-            <li>Pemberian Obat dan Vitamin selama Isolasi Mandiri.</li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">1</div>
+              </div>Pendampingan bagi Pasien Positif Covid-19 selama 10 Hari
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">2</div>
+              </div>Konsultasi dan Visitasi Dokter selama Isolasi Mandiri.
+            </li>
+            <li class="flex leading-8 mb-2">
+              <div class="w-6 h-6 mr-2">
+                <div class="blue-number">3</div>
+              </div>Pemberian Obat dan Vitamin selama Isolasi Mandiri.
+            </li>
           </ul>
         </div>
         <div>
@@ -111,129 +186,198 @@
     </section>
   
     <section class="order-section py-12 mb-20 ">
-      <div class="container lg:px-0 px-4 mx-auto">
+      <div class="container lg:px-0 md:px-8 px-4 mx-auto">
         <div class="text-center mb-16">
           <h2 class="lg:text-4xl md:text-3xl text-2xl font-semibold mb-4">Cara Pemesanan</h2>
           <p>Layanan Test Covid-19</p>
         </div>
   
         <div class="flex flex-wrap">
-          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 p-6">
+          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-6">
             <img src="/assets/icon/booking (1) 1.png" class="mb-4" alt="booking-image">
             <div class="text-xl lg:text-2xl font-semibold mb-4">Pesan Online Sekarang</div>
-            <p class="text-sm lg:text-normal">Pilih layanan testing covid-19, Sesuaikan waktu dengan tempat testing dan  lakukan pembayaran secara online.</p>
+            <p class="text-sm lg:text-normal leading-8">Pilih layanan testing covid-19, Sesuaikan waktu dengan tempat testing dan  lakukan pembayaran secara online.</p>
           </div>
-          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 p-6">
+          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-6">
             <img src="/assets/icon/blood-test 1.png" class="mb-4" alt="blood-test">
             <div class="text-xl lg:text-2xl font-semibold mb-4">Lakukan Test Dalam 10 Menit</div>
-            <p class="text-sm lg:text-normal">Kunjungi salah satu mitra klinik kami dan anda akan dilayani oleh tenaga kesehatan profesional kami.</p>
+            <p class="text-sm lg:text-normal leading-8">Kunjungi salah satu mitra klinik kami dan anda akan dilayani oleh tenaga kesehatan profesional kami.</p>
           </div>
-          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 p-6">
+          <div class="w-full mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-6">
             <img src="/assets/icon/medical-report 1.png" class="mb-4" alt="medical-report">
             <div class="text-xl lg:text-2xl font-semibold mb-4">Terima Hasil Testing Anda</div>
-            <p class="text-sm lg:text-normal">Sampel anda akan dianalisa oleh petugas kesehatan kami dan surat hasil pemeriksaan akan masuk ke email anda.</p>
+            <p class="text-sm lg:text-normal leading-8">Sampel anda akan dianalisa oleh petugas kesehatan kami dan surat hasil pemeriksaan akan masuk ke email anda.</p>
           </div>
         </div>
       </div>
     </section>
   
-    <section class="container lg:px-0 px-4 mx-auto mb-20">
+    <section class="container lg:px-0 md:px-8 px-4 mx-auto mb-20">
       <div class="text-center mb-16">
         <h2 class="lg:text-4xl md:text-3xl text-2xl  font-semibold mb-4">Kenapa Harus Memilih Detexi ?</h2>
         <p>Kesehatan mu sangat penting bagi kami, kami menawarkan pelayanan covid-19 terbaik secara menyeluruh.</p>
       </div>
 
       <div class="flex flex-wrap">
-        <div class="mb-8 lg:mb-0 lg:w-1/3 p-4">
-          <div class="p-6 w-full shadow-xl rounded-xl">
-            <img src="/assets/icon/clinic.png" class="mb-4" alt="whyus-image1">
-            <div class="font-semibold mb-2">Klinik Partner Terpercaya</div>
-            <p class="text-sm">Seluruh mitra Klinik Detexi menerapkan standarisasi mutu layanan dan telah memiliki izin operasional klinik yang diakui. Selain tenaga medis di klinik, jaringan kami juga didukung SDM profesional.</p>
+        <div class="mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-4">
+          <div class="p-6 w-full shadow-xl h-320 rounded-xl">
+            <img src="/assets/icon/clinic.png" class="mb-4 mt-8" alt="whyus-image1">
+            <div class="font-semibold mb-6">Klinik Partner Terpercaya</div>
+            <p class="text-sm leading-6">Seluruh mitra Klinik Detexi menerapkan standarisasi mutu layanan dan telah memiliki izin operasional klinik yang diakui. Selain tenaga medis di klinik, jaringan kami juga didukung SDM profesional.</p>
           </div>
         </div>
-        <div class="mb-8 lg:mb-0 lg:w-1/3 p-4">
-          <div class="p-6 w-full shadow-xl rounded-xl">
-            <img src="/assets/icon/headphones (3).png" class="mb-4" alt="whyus-image2">
-            <div class="font-semibold mb-2">24/7 Pasien support</div>
-            <p class="text-sm">Melalui pelayanan 24/7 Customer Care, kami akan selalu ada buat kamu. Dapatkan bantuan untuk pemesanan layanan kami dengan pelayanan 24/7 Customer Care dari detexi.id</p>
+        <div class="mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-4">
+          <div class="p-6 w-full shadow-xl h-320 rounded-xl">
+            <img src="/assets/icon/headphones (3).png" class="mb-4 mt-8" alt="whyus-image2">
+            <div class="font-semibold mb-6">24/7 Pasien support</div>
+            <p class="text-sm leading-6">Melalui pelayanan 24/7 Customer Care, kami akan selalu ada buat kamu. Dapatkan bantuan untuk pemesanan layanan kami dengan pelayanan 24/7 Customer Care dari detexi.id</p>
           </div>
         </div>
-        <div class="mb-8 lg:mb-0 lg:w-1/3 p-4">
-          <div class="p-6 w-full shadow-xl rounded-xl">
-            <img src="/assets/icon/microscope.png" class="mb-4" alt="whyus-image3">
-            <div class="font-semibold mb-2">Laboratorium Terstandarisasi</div>
-            <p class="text-sm">Detexi berkomitmen untuk memberikan layanan terbaik dengan laboratorium standar internasional dengan teknologi terkini sesuai dengan ketentuan WHO dan Kementerian Kesehatan Indonesia.</p>
+        <div class="mb-8 lg:mb-0 lg:w-1/3 md:w-1/2 p-4">
+          <div class="p-6 w-full shadow-xl h-320 rounded-xl">
+            <img src="/assets/icon/microscope.png" class="mb-4 mt-8" alt="whyus-image3">
+            <div class="font-semibold mb-6">Laboratorium Terstandarisasi</div>
+            <p class="text-sm leading-6">Detexi berkomitmen untuk memberikan layanan terbaik dengan laboratorium standar internasional dengan teknologi terkini sesuai dengan ketentuan WHO dan Kementerian Kesehatan Indonesia.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container lg:px-0 px-4 mx-auto mb-20">
+    <section class="container lg:px-0 md:px-8 px-4 mx-auto mb-40">
       <div class="text-center mb-16">
         <h2 class="lg:text-4xl md:text-3xl text-2xl  font-semibold mb-4">Lokasi kami</h2>
         <p>Kami memiliki layanan Swab Test Drive Thru & Walk-in di 15 lokasi yang tersebar di sekitar Palu, Makassar, Manado, Palembang, dan Balikpapan.</p>
       </div>
 
       <div class="flex flex-wrap">
-        <div class="md:w-1/2 w-full">
-          <ul>
-            <li>Semua Lokasi</li>
-            <li>Palu Mitra Utama</li>
-            <li>Citraland Palu</li>
-            <li>Palu Barat</li>
+        <div class="md:w-1/2 w-full mb-16">
+          <ul class="w-full md:w-2/3">
+            <li class="flex items-center justify-between lg:text-xl text-normal py-4 hover:text-blue-500 border-b">Semua Lokasi
+              <div class="w-8 h-8">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </li>
+            <li class="flex items-center justify-between lg:text-xl text-normal py-4 hover:text-blue-500 border-b">Palu Mitra Utama
+              <div class="w-8 h-8">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </li>
+            <li class="flex items-center justify-between lg:text-xl text-normal py-4 hover:text-blue-500 border-b">Citraland Palu
+              <div class="w-8 h-8">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </li>
+            <li class="flex items-center justify-between lg:text-xl text-normal py-4 hover:text-blue-500 border-b">Palu Barat
+              <div class="w-8 h-8">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="md:w-1/2 w-full">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.325407141811!2d119.87165581483227!3d-0.9006390355812911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8beddd95d18191%3A0x7f5c18bf17ca15de!2sPalu%20Mitra%20Utama!5e0!3m2!1sid!2sid!4v1630324882457!5m2!1sid!2sid" style="border:0;" width="w-full" allowfullscreen="" loading="lazy"></iframe>          
+          <div class="w-full h-full">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.325407141811!2d119.87165581483227!3d-0.9006390355812911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8beddd95d18191%3A0x7f5c18bf17ca15de!2sPalu%20Mitra%20Utama!5e0!3m2!1sid!2sid!4v1630324882457!5m2!1sid!2sid" style="width: 100%; height: 100%;"></script allowfullscreen="" loading="lazy"></iframe>          
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="mb-20 yellow-section h-96">
-      <div class="container lg:px-0 px-4 mx-auto relative">
-        <div class="flex flex-wrap justify-end">
-          <div class="w-full lg:w-1/3 absolute bottom-0 left-0">
+    <section class="mb-20 yellow-section py-12 md:py-0">
+      <div class="container lg:px-0 md:px-8 px-4 mx-auto relative h-96">
+        <div class="flex flex-wrap justify-end items-center">
+          <div class="w-full md:w-1/3 absolute bottom-0 left-0 hidden md:block">
             <img src="./assets/img/doctor-wearing-medical-equipment-pandemic-cases 1.png" alt="section5-img">
           </div>
-          <div class="w-full lg:w-2/3">
-            <h2>Pesan Layanan tes covid-19 anda sekarang dengan mitra klinik terbaik kami di indonesia.</h2>
-            <p>Kami melayani lebih dari 100 testing perhari dengan tenaga kesehatan profesional dan terpecaya.</p>
-            <button class="blue-button">Pesan Sekarang</button>
+          <div class="w-full h-96 flex flex-col justify-center lg:pl-16 md:w-2/3">
+            <h2 class="lg:text-3xl text-2xl font-semibold mb-8 leading-12">Pesan Layanan tes covid-19 anda sekarang dengan mitra klinik terbaik kami di indonesia.</h2>
+            <p class="mb-8">Kami melayani lebih dari 100 testing perhari dengan tenaga kesehatan profesional dan terpecaya.</p>
+            <div>
+              <button class="blue-button">Pesan Sekarang</button>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container lg:px-0 px-4 mx-auto mb-20">
+    <section class="container lg:px-0 md:px-8 px-4 mx-auto mb-20">
       <div class="text-center mb-16">
         <h2 class="lg:text-4xl md:text-3xl text-2xl font-semibold mb-4">FAQ</h2>
       </div>
-      <ul>
-        <li>Bagaimana cara pendaftaran ?</li>
-        <li>Jam dan hari apa saja operasional Detexi ?</li>
-        <li>Bagaimana saya bisa mendapatkan surat hasil pemeriksaan ?</li>
-        <li>Apakah surat hasil yang dikeluarkan oleh detexi dapat digunakan untuk penerbangan domestik / international ?</li>
-        <li>Apabila saya positif apakah bisa berkonsultasi dengan dokter ?</li>
+      <ul class="w-full lg:w-2/3 mx-auto">
+        <li>
+          <details class="py-6 border-b">
+            <summary>Bagaimana cara pendaftaran ?</summary>
+            <p class="text-sm mt-4">Pendaftaran dapat dilakukan disini. Kami sarankan kepada Anda untuk mendaftar terlebih dahulu agar mempermudah dan mempersingkat waktu saat ingin melakukan tes.</p>
+          </details>
+        </li>
+        <li>
+          <details class="py-6 border-b">
+            <summary>Jam dan hari apa saja operasional Detexi ?</summary>
+            <p class="text-sm mt-4">Pendaftaran dapat dilakukan disini. Kami sarankan kepada Anda untuk mendaftar terlebih dahulu agar mempermudah dan mempersingkat waktu saat ingin melakukan tes.</p>
+          </details>
+        </li>
+        <li>
+          <details class="py-6 border-b">
+            <summary>Bagaimana saya bisa mendapatkan surat hasil pemeriksaan ?</summary>
+            <p class="text-sm mt-4">Pendaftaran dapat dilakukan disini. Kami sarankan kepada Anda untuk mendaftar terlebih dahulu agar mempermudah dan mempersingkat waktu saat ingin melakukan tes.</p>
+          </details>
+        </li>
+        <li>
+          <details class="py-6 border-b">
+            <summary>Apakah surat hasil yang dikeluarkan oleh detexi dapat digunakan untuk penerbangan domestik / international ?</summary>
+            <p class="text-sm mt-4">Pendaftaran dapat dilakukan disini. Kami sarankan kepada Anda untuk mendaftar terlebih dahulu agar mempermudah dan mempersingkat waktu saat ingin melakukan tes.</p>
+          </details>
+        </li>
+        <li>
+          <details class="py-6 border-b">
+            <summary>Apabila saya positif apakah bisa berkonsultasi dengan dokter ?</summary>
+            <p class="text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra nec nulla vitae mollis.</p>
+          </details>
+        </li>
       </ul>
     </section>
 
     <footer>
-      <div  class="container lg:px-0 px-4 mx-auto">
+      <div  class="container lg:px-0 md:px-8 px-4 mx-auto">
         <div class="flex pb-8 border-b flex-wrap">
-          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full">
+          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full pr-8">
             <h4 class="text-normal lg:text-xl mb-2 lg:mb-4">Kontak</h4>
             <ul>
-              <li class="text-sm lg:mb-2 mb-1">0811 - 4199 - 119</li>
-              <li class="text-sm lg:mb-2 mb-1">hello@detexi.id</li>
-              <li class="text-sm lg:mb-2 mb-1">
-                <div>Hannah Space</div>
-                <p>Jalan Batavia No C/8, Kelurahan Birobuli Selatan, Kecamatan Palu Selatan,
-                  Palu, Sulawesi Tengah 94231</p>
+              <li class="text-sm flex lg:mb-2 mb-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                </svg>
+                0811 - 4199 - 119
+              </li>
+              <li class="text-sm flex lg:mb-2 mb-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+                hello@detexi.id
+              </li>
+              <li class="flex lg:mb-2 mb-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="-mt-2 mr-2 h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                </svg>
+                <div class="mt-1">
+                  <div class="text-normal mb-2">Hannah Space</div>
+                  <p class="text-xs">Jalan Batavia No C/8, Kelurahan Birobuli Selatan, Kecamatan Palu Selatan,
+                    Palu, Sulawesi Tengah 94231</p>
+                </div>
               </li>
             </ul>
           </div>
     
-          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full">
+          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full pr-8">
             <h4 class="text-normal lg:text-xl mb-2 lg:mb-4">Layanan</h4>
             <ul>
               <li class="text-sm lg:mb-2 mb-1">Homecare Test</li>
@@ -242,7 +386,7 @@
             </ul>
           </div>
     
-          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full">
+          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full pr-8">
             <h4 class="text-normal lg:text-xl mb-2 lg:mb-4">Resource</h4>
             <ul>
               <li class="text-sm lg:mb-2 mb-1">Chat Bot</li>
@@ -252,7 +396,7 @@
             </ul>
           </div>
     
-          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full">
+          <div class="lg:w-1/4 mb-8 md:w-1/2 w-full pr-8">
             <h4 class="text-normal lg:text-xl mb-2 lg:mb-4">Tentang Kami</h4>
             <div class="text-sm">Detexi adalah platform penyedia layanan tes covid-19 secara menyeluruh dalam penangan covid-19 dan bekerja sama dengan mitra klinik dan laboratorium terpercaya yang terdaftar di kemenkes.</div>
           </div>
@@ -263,6 +407,12 @@
     </footer>
 
   </div>
+
+  <script>
+    function showNavbar() {
+      document.getElementById("toggle-nav").classList.toggle("hidden")
+    }
+  </script>
 </body>
 
 </html>
