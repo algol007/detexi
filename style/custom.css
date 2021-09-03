@@ -12,6 +12,7 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   color: #484d4d;
+  scroll-behavior: smooth;
 }
 
 .h-350 {
@@ -35,6 +36,21 @@ body {
   color: #ffffff;
   padding: 0.75rem 1.25rem;
   border-radius: 0.5rem;
+}
+
+.blue-divider {
+  background-color: #72afe1;
+  width: 6rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.blue-divider2 {
+  background-color: #72afe1;
+  width: 0.75rem;
+  height: 0.5rem;
+  border-radius: 0.25rem;
 }
 
 .order-section {
@@ -79,6 +95,10 @@ footer {
   background-color: #0b3252;
   color: #fff;
   padding-top: 4rem;
+}
+
+.dfBDQI {
+  display: none !important;
 }
 
 @media screen and (max-width: 768px) {
